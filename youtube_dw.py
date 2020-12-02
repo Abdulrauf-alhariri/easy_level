@@ -5,7 +5,7 @@ import os
 
 
 def directory():
-    path = Path(r"C:\Users\abdullrauf.alhariri\Desktop\YoutubeStreams")
+    path = Path(path)
     path.mkdir()
 
 
@@ -14,7 +14,7 @@ def high_quality(yt, path):
 
 
 def download():
-    path = Path(r"C:\Users\abdullrauf.alhariri\Desktop\YoutubeStreams")
+    path = Path(path)
     try:
         yt = YouTube(input("Enter the link: "))
         if True:
